@@ -1,0 +1,54 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package persegipanjang.java;
+
+/**
+ *
+ * @author LAPTOP
+ */
+public class mencariluaspersegipanjang {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+   int panjang = 5;
+   int lebar = 7;
+   int luas = 5*7;
+   
+    System.out.println("Luas persegi panjang dengan panjang" + panjang + "dan lebar" + lebar + "adalah:" + luas);
+    
+  
+  }
+  
+         class PersegiPanjang{
+          private int panjang; 
+          private int lebar;
+                       
+
+      
+           public void setPanjang(int panjang ){
+             this.panjang = panjang;
+             
+    }
+           public int getPanjang(){
+               return panjang;
+               
+    }
+      
+           public void setLebar(int lebar){
+               this.lebar = lebar;
+                       
+      }
+           public int getLebar(){
+               return lebar;
+           }
+           public int hitungLuas(){
+               return panjang * lebar;
+           }    
+      
+        }
+}
